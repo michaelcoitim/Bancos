@@ -8,5 +8,11 @@ package modelos;
  * @author Michael Coitim
  */
 public class Conta {
+    float saldo;
+    String nomeConta;
     
+    public Conta (String nomeConta){
+        saldo = 0;
+        this.nomeConta =nomeConta;
+    }
 }
