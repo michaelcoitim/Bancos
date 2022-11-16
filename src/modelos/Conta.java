@@ -18,5 +18,17 @@ public class Conta {
     
     public void Depositar(float deposito){
         saldo += deposito;
+        System.out.println("Depositado com sucesso");
     }
+    
+    public void Sacar(float valor){
+        if(valor > this.saldo){
+            System.out.println("Erro: Valor indisponivel");
+        }else{
+            this.saldo -= valor;
+            System.out.println("Valor retirado com sucesso");
+        }
+    }
+    
+    
 }
