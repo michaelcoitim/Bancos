@@ -15,4 +15,8 @@ public class Conta {
         saldo = 0;
         this.nomeConta =nomeConta;
     }
+    
+    public void Depositar(float deposito){
+        saldo += deposito;
+    }
 }
