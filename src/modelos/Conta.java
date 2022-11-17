@@ -31,7 +31,7 @@ public class Conta {
     }
     
     public String VerSaldo(){
-        return "Saldo = "+saldo+" R$";
+        return  this.nomeConta +" Saldo = "+saldo+" R$";
     }
     
     
