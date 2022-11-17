@@ -25,9 +25,13 @@ public class Conta {
         if(valor > this.saldo){
             System.out.println("Erro: Valor indisponivel");
         }else{
-            this.saldo -= valor;
+            saldo -= valor;
             System.out.println("Valor retirado com sucesso");
         }
+    }
+    
+    public String VerSaldo(){
+        return "Saldo = "+saldo+" R$";
     }
     
     
